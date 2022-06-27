@@ -2,7 +2,12 @@
  * Главный файл стилей.
  * Все паршалы подключаются сюда.
  */
+@import './utils/container';
+@import './utils/mixin';
+@import './utils/reset';
+@import './utils/variates';
 
 // Стили для файла с примером HTML-фрагмента
 @import './example';
 @import './header';
+@import './footer';
